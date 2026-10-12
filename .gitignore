@@ -1,0 +1,8 @@
+# Private credentials
+config.py
+
+# Local backups / tooling / caches
+*.bak
+.claude/
+__pycache__/
+*.pyc
