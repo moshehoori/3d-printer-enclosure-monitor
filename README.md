@@ -53,6 +53,14 @@ mpremote cp main_s3.py :main.py
 - **Button B, short press**: toggle the printer chamber light
 - **Button B, long press**: toggle the device backlight
 
+## Wiring
+
+![Wiring diagram](docs/wiring.svg)
+
+The diagram covers the BME680 on I2C, a 4-pin PWM fan (the setup the firmware is written for),
+and an alternative low-side MOSFET driver for 2/3-wire fans. Fan wiring is a suggested circuit;
+check it against your own fan and supply before powering up.
+
 ## Pins (M5StickS3 build)
 
 | Function | GPIO |
